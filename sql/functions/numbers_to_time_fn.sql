@@ -62,9 +62,9 @@ BEGIN
     /* Simple OUTPUT format 
      * This could be JSON formatted or whatever... 
      */
-    r_result = format('You entered: %1$s.'
+    r_result = format('You entered: %1$s'
     || chr(10) || 'Which written out is: %2$s dollars.'
-    || chr(10) || 'Now consider if 1 Dollar (USD) is equal to 1 Second, then `money as time` can expressed as: '
+    || chr(10) || 'Now consider if 1 Dollar (USD) is equal to 1 Second, then ''money as time'' can expressed as: '
     || chr(10) || '%3$s years %4$s months %5$s days %6$s hours %7$s minutes %8$s seconds'
     , cast(p_money as money) , r_long_text, to_char(v_year, 'FM9,999,999,999'), v_month, v_day, v_hour, v_minute, v_secs);
 
