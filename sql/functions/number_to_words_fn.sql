@@ -4,7 +4,8 @@
     LinkedIn: https://www.linkedin.com/in/scott-mallory/
 
     File Name: number_to_words_fn.sql
-    Original file:
+    
+    this work base on this file:
     https://www.postgresql.org/message-id/5192AD58.3000807%40hogranch.com
 */
 
