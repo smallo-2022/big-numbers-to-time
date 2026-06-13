@@ -78,12 +78,15 @@ Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can ex
 </pre>
 
 #### National Deficit as of 612/2026
+<pre>
 select numbers_to_time_fn(1246203266387);
 -- output
 You entered: $1,246,203,266,387.00
 Which written out is: One Trillion Two Hundred Forty-Six Billion Two Hundred Three Million Two Hundred Sixty-Six Thousand Three Hundred Eighty-Seven dollars.
 Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 39,516 years 10 months 8 days 21 hours 59 minutes 47 seconds
+</pre>
+
 https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/
 
 
