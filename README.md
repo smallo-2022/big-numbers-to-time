@@ -46,7 +46,7 @@ select numbers_to_time_fn(16700000);
 -- output 
 You entered: $16,700,000.00.
 Which written out is: Sixteen Million Seven Hundred Thousand dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then `money as time` can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then `money as time` can be expressed as: 
 0 years 6 months 13 days 6 hours 53 minutes 20 seconds
 </pre>
 https://www.reuters.com/business/ceo-pay-averaged-167-million-last-year-sp-500-companies-decline-2023-08-03/
@@ -59,7 +59,7 @@ select numbers_to_time_fn(201000000000);
 -- output
 You entered: $201,000,000,000.00
 Which written out is: Two Hundred One Billion dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 6,373 years 8 months 3 days 21 hours 20 minutes 0 seconds
 -- note that 1 billion dollars is about 31 years
 </pre>
@@ -76,31 +76,76 @@ Which written out is: Eight Hundred Twenty-Eight Billion One Hundred Thirty-Four
 Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
 26,259 years 11 months 26 days 23 hours 57 minutes 11 seconds
 </pre>
+
+#### National Deficit as of 612/2026
+select numbers_to_time_fn(1246203266387);
+-- output
+You entered: $1,246,203,266,387.00
+Which written out is: One Trillion Two Hundred Forty-Six Billion Two Hundred Three Million Two Hundred Sixty-Six Thousand Three Hundred Eighty-Seven dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+39,516 years 10 months 8 days 21 hours 59 minutes 47 seconds
 https://fiscaldata.treasury.gov/americas-finance-guide/national-deficit/
 
-### More examples
 
+### More examples
+<pre>
+You entered: $50,000.00
+Which written out is: Fifty Thousand dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+0 years 0 months 0 days 13 hours 53 minutes 20 seconds
+</pre>
 <pre>
 You entered: $100,000.00.
 Which written out is: One Hundred Thousand dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 0 years 0 months 1 days 3 hours 46 minutes 40 seconds
+</pre>
+<pre>
+You entered: $500,000.00
+Which written out is: Five Hundred Thousand dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+0 years 0 months 5 days 18 hours 53 minutes 20 seconds
 </pre>
 <pre>
 You entered: $1,000,000.00.
 Which written out is: One Million dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 0 years 0 months 11 days 13 hours 46 minutes 40 seconds
 </pre>
 <pre>
 You entered: $100,000,000.00.
 Which written out is: One Hundred Million dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 3 years 2 months 2 days 9 hours 46 minutes 40 seconds
+</pre>
+<pre>
+You entered: $500,000,000.00
+Which written out is: Five Hundred Million dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+15 years 10 months 12 days 0 hours 53 minutes 20 seconds
 </pre>
 <pre>
 You entered: $1,000,000,000.00.
 Which written out is: One Billion dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 31 years 8 months 19 days 1 hours 46 minutes 40 seconds
+</pre>
+<pre>
+You entered: $500,000,000,000.00
+Which written out is: Five Hundred Billion dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+15,854 years 10 months 27 days 0 hours 53 minutes 20 seconds
+</pre>
+<pre>
+You entered: $1,000,000,000,000.00
+Which written out is: One Trillion dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+31,709 years 9 months 19 days 1 hours 46 minutes 40 seconds
+</pre>
+<pre>
+National Debt, June 2026 - https://en.wikipedia.org/wiki/National_debt_of_the_United_States
+You entered: $39,000,000,000,000.00
+Which written out is: Thirty-Nine Trillion dollars.
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
+1,236,681 years 10 months 23 days 21 hours 20 minutes 0 seconds
 </pre>
