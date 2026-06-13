@@ -35,7 +35,7 @@ select numbers_to_time_fn(74580);
 -- output
 You entered: $74,580.00.
 Which written out is: Seventy-Four Thousand Five Hundred Eighty dollars.
-Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can expressed as: 
+Now consider if 1 Dollar (USD) is equal to 1 Second, then 'money as time' can be expressed as: 
 0 years 0 months 0 days 20 hours 43 minutes 0 seconds
 </pre>
 https://www.census.gov/library/publications/2023/demo/p60-279.html
